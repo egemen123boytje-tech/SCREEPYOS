@@ -23,7 +23,7 @@ function progress(){
 }
 window.addEventListener('scroll',()=>{if(!scrollPending){scrollPending=true;requestAnimationFrame(progress);}}, {passive:true});
 window.addEventListener('resize',progress);progress();
-const hash='4d9b41ae9c35b702e97d24616f2096bc8ae9b9cdda8407f6577d8c930feee2df';
+const hash='310acd327379de9186fc39f9ce0cb55f7fc0fcd17c4b3590c38645d56b69715a';
 document.querySelector('#copy-hash').addEventListener('click',async()=>{
  const status=document.querySelector('#copy-status');
  try{await navigator.clipboard.writeText(hash);status.textContent='SHA-256 copied.';}
