@@ -1,0 +1,8 @@
+SCREEPYOS 0.9.4 - 7 October 2026
+PASS: isolated placeholder creation, repeat, existing file preservation, junction
+rejection, argument checks, signature ordering and optional install/upgrade wiring.
+PASS: 50 PowerShell parser/portable regression checks; 4 optional Edge failure checks.
+Manifest and archive integrity checked during packaging. No Edge/system changes
+were applied to the development PC. Full uninstall on the affected PC and
+WebView2 operation afterwards remain unverified. No guarantee of removal or of
+preventing Edge reinstall by Windows.

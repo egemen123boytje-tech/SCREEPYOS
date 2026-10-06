@@ -1,16 +1,18 @@
-# SCREEPYOS 0.9.3
+# SCREEPYOS 0.9.4
 
 Experimental Windows gaming-PC playbook.
 
 [Website](https://egemen123boytje-tech.github.io/SCREEPYOS/)
 
-- [Download playbook](downloads/SCREEPYOS-0.9.3-Gaming-PC-Experimental.apbx)
-- [Source code and tests](downloads/SCREEPYOS-0.9.3-Source.zip)
-- [Usage and recovery](docs/0.9.3/README.txt)
-- [Validation](docs/0.9.3/VALIDATION.txt)
+- [Download playbook](downloads/SCREEPYOS-0.9.4-Gaming-PC-Experimental.apbx)
+- [Source code and tests](downloads/SCREEPYOS-0.9.4-Source.zip)
+- [Usage and recovery](docs/0.9.4/README.txt)
+- [Validation](docs/0.9.4/VALIDATION.txt)
 
-The visual-effects installation option defaults on: Custom with all pictured effects off except desktop icon label shadows. Font smoothing and thumbnail previews are also off. Uncheck in AME to preserve current settings. Original API/registry values are backed up for recovery. Sign out and back in after installation or restoration.
+Adds an optional Advanced Edge removal checkbox (off by default). After normal removal, this tries the legacy placeholder technique and Microsoft's verified installer with --force-uninstall. Existing legacy files are preserved. WebView2 is not targeted; --delete-profile is not used. A replacement browser must already be verified. The placeholder remains with a creation record. Windows can still block removal or reinstall Edge.
 
-Build 26300 support and optional-service dependency skipping retained. Upgrades through 0.9.2 supported. Mock apply/restore, parser and regression checks passed; native APIs tested read-only. Full installation and visual result on the affected PC remain unverified. No guaranteed FPS gains.
+Technique reference: [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil/blob/main/config/tweaks.json). Independently implemented with additional checks.
 
-Playbook SHA-256: `cb34a39b69c17cfded6a3115c277324b403ade10212a3b312e4765da86ad7359`
+Prior visual effects, build 26300 and service dependency fixes retained. Full installation/uninstall on the affected PC remains unverified; isolated tests passed. No guaranteed FPS gains.
+
+Playbook SHA-256: `da340772903afc686863435ec199de1c3c2eac6d76d5d833bbcb8ed101171d0d`
