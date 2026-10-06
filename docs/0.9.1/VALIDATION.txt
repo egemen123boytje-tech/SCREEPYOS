@@ -1,0 +1,30 @@
+SCREEPYOS 0.9.1 - 6 October 2026
+PASS: 50 OS build/upgrade checks evaluate actual installer/profile guard expressions.
+Build 26300 and previous supported client builds accepted; server products and
+unlisted builds rejected. AME configuration and upgrade from 0.9.0 verified.
+PASS: 48 native PowerShell parser and portable regression checks.
+No installation or system tweaks executed. Full AME install and real games on
+Windows 11 26H2 remain unverified. Earlier feature testing is documented below.
+
+Historical 0.9.0 validation (not rerun in full for this compatibility patch):
+SCREEPYOS 0.9.0 - 4 October 2026
+PASS: 48 existing native-parser / mock-regression checks.
+PASS: 22 Performance tests: byte-preserving config snapshots, backup/restore,
+later-change conflict handling, stale-confirmation rejection, explicit restore
+with displaced-file backup, invalid slots/scripts, tampering, path traversal,
+running-game guard, protected processes, normal close requests, PID reuse,
+capture argument validation and bounded duration.
+PASS: 12 benchmark tests, including PresentMon initial-zero handling.
+PASS: 8 browser, 4 Edge failure, 20 shell/launcher, 8 optional-feature and 12 queue
+checks. These use mocks/source validation; no installation/system tweaks run.
+PASS: native 15-second telemetry-worker test with a benign PowerShell process,
+8 CPU/RAM samples; missing GPU values stayed blank. This is not a game benchmark.
+PASS: isolated native WinForms rendering/navigation of Home, Game library,
+Performance Lab, Benchmarks, legacy recovery and Help. Config/measurement tabs
+rendered. Privilege gate bypassed only in copied UI harness, app data redirected
+to workspace. Not a full high-DPI/accessibility or end-to-end interaction audit.
+NOT VERIFIED: full AME install/upgrade, real app-closing interaction/save dialogs,
+actual games/config formats, real UAC/system recovery, anti-cheat compatibility,
+external PresentMon capture, GPU counter availability, temperature provider and
+gaming FPS gains. PresentMon arguments checked against official documentation.
+Historical test logs retain their release labels. Current logs: Tests/0.9.0-RESULTS.txt.
