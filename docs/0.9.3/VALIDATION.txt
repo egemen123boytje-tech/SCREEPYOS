@@ -1,0 +1,8 @@
+SCREEPYOS 0.9.3
+PASS: mocked visual preset apply/restore, all 20 values, backup before mutation,
+conflict preservation, restore retry, opt-out and default-enabled wizard option.
+PASS: 12 native read-only SystemParametersInfo queries; no native writes made.
+PASS: 49 native parser/regression, 50 build/upgrade and 5 service dependency cases.
+Package manifest and encrypted archive integrity checked during packaging.
+NOT VERIFIED: actual visual result and end-to-end install on the affected PC.
+API reference: https://learn.microsoft.com/windows/win32/api/winuser/nf-winuser-systemparametersinfow

@@ -1,16 +1,16 @@
-# SCREEPYOS 0.9.2
+# SCREEPYOS 0.9.3
 
 Experimental Windows gaming-PC playbook.
 
 [Website](https://egemen123boytje-tech.github.io/SCREEPYOS/)
 
-- [Download playbook](downloads/SCREEPYOS-0.9.2-Gaming-PC-Experimental.apbx)
-- [Source code and tests](downloads/SCREEPYOS-0.9.2-Source.zip)
-- [Usage and recovery](docs/0.9.2/README.txt)
-- [Validation](docs/0.9.2/VALIDATION.txt)
+- [Download playbook](downloads/SCREEPYOS-0.9.3-Gaming-PC-Experimental.apbx)
+- [Source code and tests](downloads/SCREEPYOS-0.9.3-Source.zip)
+- [Usage and recovery](docs/0.9.3/README.txt)
+- [Validation](docs/0.9.3/VALIDATION.txt)
 
-Fixes Finish halting when a service has an enabled dependent (for example Windows Search with Work Folders). The service remains unchanged, a warning is logged, and other selections continue. Real backup/write failures still fail. Edge removal remains optional and subject to Windows restrictions.
+The visual-effects installation option defaults on: Custom with all pictured effects off except desktop icon label shadows. Font smoothing and thumbnail previews are also off. Uncheck in AME to preserve current settings. Original API/registry values are backed up for recovery. Sign out and back in after installation or restoration.
 
-Build 26300 support retained. Upgrades from 0.9.0 and 0.9.1 supported. Existing backups retained. Mock regression checks passed; a full rerun on the affected PC is not yet verified. No guaranteed FPS gains.
+Build 26300 support and optional-service dependency skipping retained. Upgrades through 0.9.2 supported. Mock apply/restore, parser and regression checks passed; native APIs tested read-only. Full installation and visual result on the affected PC remain unverified. No guaranteed FPS gains.
 
-Playbook SHA-256: `17b33922aec9dfd3cd747b0bcb57bd395e73426d19380a3ad16cfa3fdef0c2c2`
+Playbook SHA-256: `cb34a39b69c17cfded6a3115c277324b403ade10212a3b312e4765da86ad7359`
