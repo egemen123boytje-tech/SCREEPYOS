@@ -1,0 +1,7 @@
+SCREEPYOS 0.9.2 - 6 October 2026
+PASS: 5 mocked service dependency scenarios using the real Apply loop: enabled
+unselected dependent skips the parent without writes or backup entry; disabled
+or selected dependent permits action; write/backup failures retain error exit.
+PASS: 50 OS build/upgrade, 48 parser/regression, 8 optional-choice and 4 Edge
+failure checks. No actual system settings were changed during these tests.
+Full end-to-end installation on the affected PC remains unverified.

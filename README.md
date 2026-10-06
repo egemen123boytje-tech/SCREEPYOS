@@ -1,18 +1,16 @@
-# SCREEPYOS
+# SCREEPYOS 0.9.2
 
-Experimental Windows gaming-PC playbook with a black and gray dashboard.
+Experimental Windows gaming-PC playbook.
 
 [Website](https://egemen123boytje-tech.github.io/SCREEPYOS/)
 
-## Version 0.9.1
+- [Download playbook](downloads/SCREEPYOS-0.9.2-Gaming-PC-Experimental.apbx)
+- [Source code and tests](downloads/SCREEPYOS-0.9.2-Source.zip)
+- [Usage and recovery](docs/0.9.2/README.txt)
+- [Validation](docs/0.9.2/VALIDATION.txt)
 
-- [Download the AME playbook](downloads/SCREEPYOS-0.9.1-Gaming-PC-Experimental.apbx)
-- [Download source code and tests](downloads/SCREEPYOS-0.9.1-Source.zip)
-- [Usage and recovery guide](docs/0.9.1/README.txt)
-- [Validation results and limitations](docs/0.9.1/VALIDATION.txt)
+Fixes Finish halting when a service has an enabled dependent (for example Windows Search with Work Folders). The service remains unchanged, a warning is logged, and other selections continue. Real backup/write failures still fail. Edge removal remains optional and subject to Windows restrictions.
 
-Adds optional background-app closing, user-saved Low/Mid/High/Custom game configuration snapshots, latency guidance, CPU/RAM telemetry and optional PresentMon capture. Profiles are saved by the user; they are not universal automatic game presets. No guaranteed FPS gains. Full AME installation and real-game performance remain unverified; see validation results.
+Build 26300 support retained. Upgrades from 0.9.0 and 0.9.1 supported. Existing backups retained. Mock regression checks passed; a full rerun on the affected PC is not yet verified. No guaranteed FPS gains.
 
-Playbook SHA-256: `0650d33c0c9982f9cd2446907f441d9885ba44df617c654c5f731f184bba96ee`
-
-0.9.1 fixes the unsupported-build blocker for Windows 11 26H2 (26300) in AME, the installer and visual profiles. Build guard tests pass; full installation on 26H2 remains unverified.
+Playbook SHA-256: `17b33922aec9dfd3cd747b0bcb57bd395e73426d19380a3ad16cfa3fdef0c2c2`
