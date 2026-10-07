@@ -1,16 +1,17 @@
-# SCREEPYOS 0.9.5
+# SCREEPYOS 0.9.6
 
 Experimental Windows gaming-PC playbook.
 
 [Website](https://egemen123boytje-tech.github.io/SCREEPYOS/)
 
-- [Download playbook](downloads/SCREEPYOS-0.9.5-Gaming-PC-Experimental.apbx)
-- [Source code and tests](downloads/SCREEPYOS-0.9.5-Source.zip)
-- [Usage and recovery](docs/0.9.5/README.txt)
-- [Validation](docs/0.9.5/VALIDATION.txt)
+- [Download playbook](downloads/SCREEPYOS-0.9.6-Gaming-PC-Experimental.apbx)
+- [Source code and tests](downloads/SCREEPYOS-0.9.6-Source.zip)
+- [4K wallpaper](downloads/SCREEPYOS-4K.png)
+- [Usage and recovery](docs/0.9.6/README.txt)
+- [Validation](docs/0.9.6/VALIDATION.txt)
 
-Fixes the AME XML loading error in 0.9.4: checkbox pages with both a top and bottom line may have at most two options. Advanced Edge removal is now on its own page, 5 of 9. All choices and defaults are retained. Packaging now enforces the page constraint.
+Grouped navigation, responsive overview cards, dark tabs, consistent controls and eased panel scrolling. The scroll timer stops when idle. Logo retained at top left. Original wallpaper technically upscaled to exactly 3840x2160; no new native detail is claimed.
 
-Prior visual-effects, build 26300 and service dependency fixes retained. Advanced Edge removal remains opt-in; actual removal is not guaranteed. Corrected packed configuration and manifest verified; full AME UI/install on the affected PC remains unverified.
+Prior AME XML, service-dependency and build 26300 fixes retained. Advanced Edge removal remains opt-in. Native rendering/navigation and scroll checks passed in an isolated harness. Full install on the affected PC, all high-DPI layouts and physical mouse/trackpad feel remain unverified. No guaranteed FPS gains.
 
-Playbook SHA-256: `5f4c4f6992758c775074177c11346c0193c5c52e0d739ddcef1aafbe64d228fe`
+Playbook SHA-256: `9604d11e3df4b04104ad177b76ebe804167331415b940830c5d63872a7afd824`

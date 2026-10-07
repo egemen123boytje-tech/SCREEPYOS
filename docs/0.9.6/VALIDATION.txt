@@ -1,0 +1,9 @@
+SCREEPYOS 0.9.6
+PASS: actual isolated WinForms shell rendered Home, Game library, Performance,
+Benchmarks, legacy recovery and Help. Home rendered at 1230x790 and 900x580.
+PASS: native smooth-scroll easing, settling, bounds, idle timer and disposal.
+PASS: wallpaper dimensions 3840x2160; technical upscale, not new native detail.
+PASS: 50 native parser/portable regression and 20 launcher/module checks.
+Package manifest, 9-page AME layout and archive integrity checked in packaging.
+No OS tweaks executed. Full AME installation on affected PC, physical mouse/
+trackpad feel, all pages at high DPI and assistive-technology use remain unverified.
