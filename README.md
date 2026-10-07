@@ -1,18 +1,16 @@
-# SCREEPYOS 0.9.4
+# SCREEPYOS 0.9.5
 
 Experimental Windows gaming-PC playbook.
 
 [Website](https://egemen123boytje-tech.github.io/SCREEPYOS/)
 
-- [Download playbook](downloads/SCREEPYOS-0.9.4-Gaming-PC-Experimental.apbx)
-- [Source code and tests](downloads/SCREEPYOS-0.9.4-Source.zip)
-- [Usage and recovery](docs/0.9.4/README.txt)
-- [Validation](docs/0.9.4/VALIDATION.txt)
+- [Download playbook](downloads/SCREEPYOS-0.9.5-Gaming-PC-Experimental.apbx)
+- [Source code and tests](downloads/SCREEPYOS-0.9.5-Source.zip)
+- [Usage and recovery](docs/0.9.5/README.txt)
+- [Validation](docs/0.9.5/VALIDATION.txt)
 
-Adds an optional Advanced Edge removal checkbox (off by default). After normal removal, this tries the legacy placeholder technique and Microsoft's verified installer with --force-uninstall. Existing legacy files are preserved. WebView2 is not targeted; --delete-profile is not used. A replacement browser must already be verified. The placeholder remains with a creation record. Windows can still block removal or reinstall Edge.
+Fixes the AME XML loading error in 0.9.4: checkbox pages with both a top and bottom line may have at most two options. Advanced Edge removal is now on its own page, 5 of 9. All choices and defaults are retained. Packaging now enforces the page constraint.
 
-Technique reference: [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil/blob/main/config/tweaks.json). Independently implemented with additional checks.
+Prior visual-effects, build 26300 and service dependency fixes retained. Advanced Edge removal remains opt-in; actual removal is not guaranteed. Corrected packed configuration and manifest verified; full AME UI/install on the affected PC remains unverified.
 
-Prior visual effects, build 26300 and service dependency fixes retained. Full installation/uninstall on the affected PC remains unverified; isolated tests passed. No guaranteed FPS gains.
-
-Playbook SHA-256: `da340772903afc686863435ec199de1c3c2eac6d76d5d833bbcb8ed101171d0d`
+Playbook SHA-256: `5f4c4f6992758c775074177c11346c0193c5c52e0d739ddcef1aafbe64d228fe`

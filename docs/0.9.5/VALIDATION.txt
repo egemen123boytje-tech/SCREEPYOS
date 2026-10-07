@@ -1,0 +1,7 @@
+SCREEPYOS 0.9.5 - 7 October 2026
+PASS: reproduced 0.9.4's three-option page failure; 0.9.5 meets the two-option
+limit on every checkbox page with TopLine and BottomLine. All choice IDs and
+defaults retained; 9 pages numbered correctly. Edge removal on page 5, opt-in.
+Package validator now enforces this layout rule. Manifest and encrypted archive
+integrity are checked during packaging. No OS tweaks executed.
+Full AME UI load/install on the affected PC has not been verified here.
